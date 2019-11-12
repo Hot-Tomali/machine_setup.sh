@@ -24,12 +24,31 @@ brew tap drud/ddev
 # Install core homebrew packages
 homebrew_packages=(
   ack
+  apr
+  apr-util
+  argon2
+  aspell
+  autoconf
   awscli
+  brotli
+  c-ares
   closure-compiler
   cmake
+  cocoapods
   composer
+  coreutils
+  curl-openssl
   ddev
+  dnsmasq
+  docker
+  emojify
+  fontconfig
+  freetds
+  freetype
+  fribidi
+  gawk
   gcc
+  gd
   gdbm
   gettext
   ghostscript
@@ -88,9 +107,9 @@ brew install caskroom/cask/brew-cask
 # Apps (Cask installation)
 apps=(
   alfred
+  android-sdk
   android-studio
   angry-ip-scanner
-  calibre
   dbeaver-community
   diffmerge
   docker
@@ -105,6 +124,8 @@ apps=(
   java
   kdiff3
   mysql-client
+  mysqlworkbench
+  ngrok
   node
   p4v
   phpstorm
@@ -115,6 +136,7 @@ apps=(
   spectacle
   spotify
   sublime-text
+  typora
   visual-studio-code
   vlc
 )
